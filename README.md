@@ -15,3 +15,5 @@ We implemented our model by using the [LOBSTER](https://lobsterdata.com/info/Dat
  * Merging all 5 data-sets
  * shuffled the data
  * Min-max normalization or denormalization
+ 
+After performing Preprocessing step we would have 123985 data with 3 features (Price, Direction and Size)
