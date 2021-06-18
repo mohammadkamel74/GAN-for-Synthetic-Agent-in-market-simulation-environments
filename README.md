@@ -36,6 +36,8 @@ After performing Preprocessing step we would have 123985 data with 3 features (P
 
 ABIDES is an Agent-Based Interactive Discrete Event Simulation environment. ABIDES is designed from the ground up to support AI agent research in market applications. While simulations are certainly available within trading firms for their own internal use, there are no broadly available high-fidelity market simulation environments. ABIDES is designed from the ground up to support AI agent research in market applications. ABIDES enables the simulation of many trading agents interacting with an exchange agent to facilitate transactions.
 
+Step1: install abides on your machine.
+
 For our agent we used exp_agent_demo.py Abides configuration. This configuration is a variant of rmsc03.py0 configuration. So we have these following components:
 * 1 Exchange Agent
 * 100 Value Agents
@@ -51,9 +53,10 @@ In our project we have added ‘ExampleExperimentalAgentTemplate’ and ‘Examp
 * If ”short-term” is greater than ”long-term” then sell ”order-size”.
 * If ”short-term” is less than ”long-term” then buy ”order-size”.
 
-After you have installed Abides on your machine you must replace ExampleExperimentalAgent.py and exp_agent_demo.py with the original files.
-Finally by executinh the following codes you can start trading with your new agents.
+Step2: add 2 ExampleExperimentalAgentTemplate and 2 ExampleExperimentalAgent to our components. This part is done so you only need to replace ExampleExperimentalAgent.py and exp_agent_demo.py with the original files in the directory.
+
+Step3:Finally by executinh the following codes you can start trading with your new agents.
  
- <img  align="center" src="img/Capture.PNG" width="700" height="200">
+<img  align="center" src="img/Capture.PNG" width="700" height="200">
 
  
