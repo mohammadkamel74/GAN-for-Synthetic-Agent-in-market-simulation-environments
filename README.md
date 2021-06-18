@@ -52,4 +52,8 @@ In our project we have added ‘ExampleExperimentalAgentTemplate’ and ‘Examp
 * If ”short-term” is less than ”long-term” then buy ”order-size”.
 
 After you have installed Abides on your machine you must replace ExampleExperimentalAgent.py and exp_agent_demo.py with the original files.
+Finally by executinh the following codes you can start trading with your new agents.
+ 
+ <img  align="center" src="img/Capture.PNG" width="300" height="300">
 
+ 
