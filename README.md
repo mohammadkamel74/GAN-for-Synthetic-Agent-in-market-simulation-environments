@@ -42,6 +42,7 @@ For our agent we used exp_agent_demo.py Abides configuration. This configuration
 * 25 Momentum Agents
 * 5000 Noise Agents
 * 1 POV Market Maker Agent
+
 In our project we have added ‘ExampleExperimentalAgentTemplate’ and ‘ExampleExperimentalAgent’ agents in which ExampleExperimentalAgentTemplate is a simple agent with no effect on the market. It merely sits and receives market data at some subscription frequency. So an Agent wakes up at a fixed frequency, but takes no action and ExampleExperimentalAgent which inherits from the ‘Example Experimental AgentTemplate’. Here you can see the parameters that we defined according to our requirements.
 * ”wake-freq” means how often the agent will trade.
 * ”order-size” shows size of market order placed.
