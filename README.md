@@ -18,7 +18,19 @@ We implemented our model by using the [LOBSTER](https://lobsterdata.com/info/Dat
  
 After performing Preprocessing step we would have 123985 data with 3 features (Price, Direction and Size)
 
+```
+%cd AI4TPG
+%cd Code
+!python pre_process_ai4trading.py
+```
+
 ## Generative Adversarial Network
+
+```
+%cd AI4TPG
+%cd Code
+!python gan.py
+```
 
 ## Abides
 
