@@ -6,4 +6,4 @@ In our project we have created a financial agent that buys and sells stocks on a
 
 ## Data
 
-We implemented our model by using the [LOBSTER](https://lobsterdata.com/info/DataSamples.php) data-sets which is based on the official NASDAQ Historical, named AMZN,AAPL, GOOG, INTC, MSFT and in this project we have used level one of each dataset contains. 
+We implemented our model by using the [LOBSTER](https://lobsterdata.com/info/DataSamples.php) data-sets which is based on the official NASDAQ Historical, named AMZN,AAPL, GOOG, INTC, MSFT and in this project we have used level one of each dataset. 
