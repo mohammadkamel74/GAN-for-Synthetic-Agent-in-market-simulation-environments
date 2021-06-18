@@ -35,3 +35,20 @@ After performing Preprocessing step we would have 123985 data with 3 features (P
 ## Abides
 
 ABIDES is an Agent-Based Interactive Discrete Event Simulation environment. ABIDES is designed from the ground up to support AI agent research in market applications. While simulations are certainly available within trading firms for their own internal use, there are no broadly available high-fidelity market simulation environments. ABIDES is designed from the ground up to support AI agent research in market applications. ABIDES enables the simulation of many trading agents interacting with an exchange agent to facilitate transactions.
+
+For our agent we used exp_agent_demo.py Abides configuration. This configuration is a variant of rmsc03.py0 configuration. So we have these following components:
+* 1 Exchange Agent
+* 100 Value Agents
+* 25 Momentum Agents
+* 5000 Noise Agents
+* 1 POV Market Maker Agent
+In our project we have added ‘ExampleExperimentalAgentTemplate’ and ‘ExampleExperimentalAgent’ agents in which ExampleExperimentalAgentTemplate is a simple agent with no effect on the market. It merely sits and receives market data at some subscription frequency. So an Agent wakes up at a fixed frequency, but takes no action and ExampleExperimentalAgent which inherits from the ‘Example Experimental AgentTemplate’. Here you can see the parameters that we defined according to our requirements.
+* ”wake-freq” means how often the agent will trade.
+* ”order-size” shows size of market order placed.
+* ”short-window” as a ”short-term”.
+* ”long-window” as a ”long-term”.
+* If ”short-term” is greater than ”long-term” then sell ”order-size”.
+* If ”short-term” is less than ”long-term” then buy ”order-size”.
+
+
+
