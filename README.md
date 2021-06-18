@@ -17,3 +17,9 @@ We implemented our model by using the [LOBSTER](https://lobsterdata.com/info/Dat
  * Min-max normalization or denormalization
  
 After performing Preprocessing step we would have 123985 data with 3 features (Price, Direction and Size)
+
+## Generative Adversarial Network
+
+## Abides
+
+ABIDES is an Agent-Based Interactive Discrete Event Simulation environment. ABIDES is designed from the ground up to support AI agent research in market applications. While simulations are certainly available within trading firms for their own internal use, there are no broadly available high-fidelity market simulation environments. ABIDES is designed from the ground up to support AI agent research in market applications. ABIDES enables the simulation of many trading agents interacting with an exchange agent to facilitate transactions.
